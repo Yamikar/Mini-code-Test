@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: rgb(171, 170, 201);
+}
+.download-btn{
+    display: flex;
+    border: none;
+    color: #fff;
+    align-items: center;
+    background: red;
+    border-radius: 6px;
+    padding: 16px 25px;
+    box-shadow: 0 5px 10px rgba(0, 0,  0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.download-btn:hover{
+  background: rgb(225, 13, 13);  
+}
+
+
+
+.download-btn .icon{
+    font-size: 2rem;
+}
+.download-btn .text{
+    font-size: 1.6rem;
+    padding-left:10px;
+}
